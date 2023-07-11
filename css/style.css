@@ -1,4 +1,4 @@
-/* comon shared style */
+
 body{
     font-family: 'Lato', sans-serif;
               font-family: 'Open Sans', sans-serif;
@@ -26,6 +26,7 @@ body{
       display: flex;
       align-items: center;
       justify-content: space-between;
+      background-color: #E554731A;
   }
   .banner-content{
       max-width: 500px;
@@ -36,7 +37,7 @@ body{
  
   .banner-title
   {
-      font-size: 85px;
+      font-size: 50px;
       font-style: normal;
       font-weight: 700;
       margin-top: 5px;
@@ -51,14 +52,75 @@ font-weight: 800;
 
   }
 main p{
-    text-align: center;
+    
    
 color: #272727;
  font-size: 23px;
-
+text-align: center;
  font-weight: 400;
  
 
+}
+
+/* third banner */
+.third-banner{
+    background-color:#2727270D ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 180px;
+    width: 1000px;
+    height: 320px;
+    margin: auto;
+    text-align: center;
+
+
+}
+.img-a{
+    text-align: center;
+    
+}
+.img-b{
+    text-align: center;
+
+}
+.img-c{
+    text-align: center;
+}
+/* four .banner */
+.four-banner{
+   display: flex;
+      align-items: center;
+      justify-content: space-between;
+    margin: 0px 150px;
+     background-color:#E554731A;
+}
+.four-banner p{
+    color: #272727;
+    font-size: 18px;
+   
+    font-weight: 400;
+}
+
+.four-banner .profile-pic{
+    width: 500px;
+}
+/* five banner */
+.text-five{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+  
+}
+.five-banner p{
+    color: #272727;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+}
+.col{
+    flex-basis: 100%;
 }
 .card{
 
@@ -68,52 +130,108 @@ color: #272727;
     list-style: none;
     align-items: center;
 }
-.card1
-{
-    border: 2px solid #A7216226;
-    padding: 110px ;
-    width: 300px;
-    height: 400px;
+.card{
     
-    background-color: #A7216226;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+
+
+}
+.card1{
+    background-image: url('../image/Flower\ 01.png');
 }
 .card2{
-    border: 2px solid #A7216226;
-    padding: 110px ;
-    width: 300px;
-    height: 380px;
-    
-    background-color: #0597A026;
+    background-image: url('../image/Rectangle\ 4.png');
 }
 .card3{
-    
-    border: 2px solid #A7216226;
-    padding: 110px ;
-    width: 300px;
-    height: 440px;
-    background-color:#477D1126;
-    
-} 
-/* third banner */
-.third-banner{
-    background-color:#2727270D ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 180px;
-    width: 1500px;
-    height: 320px;
-    margin: auto;
-    text-align: center;
+    background-image: url('../image/Rectangle\ 5.png ');
+}
+.card4{
+    background-image: url('../image/Rectangle\ 6.png ');
+}
+/* six banner */
+.six-banner{
+  background-image: url('../image/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 500px;
+  margin: auto;
+  border-radius: 5px;
+}
+.six-text{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+}
+.six-banner p{
+    color:#272727;
+font-size: 18px;
+text-align: center;
+font-weight: 400;
 
 }
-.img-a{
+.email{
+     border-radius: 5px;
+     width: 500px;
+     padding: 14px;
+     margin: auto;
+     font-size: 17px;
+     
+}
+.subscribe-primary{
+    color: white;
+font-size: 20px;
+background-color: #E55473;
+font-weight: 700;
+text-align: center;
+padding: 12px;
+}
+.ep{
     text-align: center;
 }
-.img-b{
-    text-align: center;
+footer{
+    background-color: black;
+    height: 400px;
+}
+.flower{
+    
+color: #E55473;
+ font-size: 48px;
+ font-weight: 800;
 
 }
-.img-c{
-    text-align: center;
+.flower-shop{
+color: white;
+ font-size: 48px;
+ font-weight: 800;
+ text-align: center;
+
 }
+.footer p{
+    color: #fff;
+    font-size: 18px;
+font-weight: 400;
+text-align: center;
+
+}
+.footer h5{
+    color: wheat;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+
+}
+
+
